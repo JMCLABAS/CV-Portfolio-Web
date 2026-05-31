@@ -184,3 +184,5 @@ function renderApp() {
 
 // Initial render
 renderApp();
+
+// Trigger GitHub Actions deployment
