@@ -38,9 +38,9 @@ function renderApp() {
             <div class="status-dot"></div>
             <span class="status-text">${d.hero.status}</span>
           </div>
-          <h1 class="hero-title">
+          <h1 class="hero-title text-gradient" style="display: inline-block;">
             ${d.hero.title} <br/>
-            <span class="text-gradient">${d.hero.subtitle}</span>
+            ${d.hero.subtitle}
           </h1>
           <p class="hero-subtitle">
             ${d.hero.description}
