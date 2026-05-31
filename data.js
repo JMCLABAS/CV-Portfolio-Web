@@ -50,6 +50,15 @@ export const data = {
             { name: "OpenCV", icon: "https://api.iconify.design/logos:opencv.svg" },
             { name: "Terraform", icon: "https://api.iconify.design/logos:terraform-icon.svg" }
           ]
+        },
+        {
+          name: "Certificaciones",
+          items: [
+            { name: "Architecting with GKE", icon: "https://api.iconify.design/logos:kubernetes.svg" },
+            { name: "IA Generativa e IOT (MIT)", icon: "https://api.iconify.design/logos:openai-icon.svg" },
+            { name: "Google Cloud Fundamentals", icon: "https://api.iconify.design/logos:google-cloud.svg" },
+            { name: "Inglés C1", icon: "https://api.iconify.design/twemoji:flag-united-kingdom.svg" }
+          ]
         }
       ]
     },
@@ -152,6 +161,15 @@ export const data = {
             { name: "PyTorch", icon: "https://api.iconify.design/logos:pytorch-icon.svg" },
             { name: "OpenCV", icon: "https://api.iconify.design/logos:opencv.svg" },
             { name: "Terraform", icon: "https://api.iconify.design/logos:terraform-icon.svg" }
+          ]
+        },
+        {
+          name: "Certifications",
+          items: [
+            { name: "Architecting with GKE", icon: "https://api.iconify.design/logos:kubernetes.svg" },
+            { name: "Gen AI & IOT (MIT)", icon: "https://api.iconify.design/logos:openai-icon.svg" },
+            { name: "Google Cloud Fundamentals", icon: "https://api.iconify.design/logos:google-cloud.svg" },
+            { name: "C1 English", icon: "https://api.iconify.design/twemoji:flag-united-kingdom.svg" }
           ]
         }
       ]
