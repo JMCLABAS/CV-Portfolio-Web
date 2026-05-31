@@ -61,7 +61,7 @@ export const data = {
           id: "birrometro",
           title: "Birrómetro",
           tag: "Mobile App Destacada",
-          image: "/birrometro.png",
+          image: "./birrometro.png",
           description: "App móvil multiplataforma nativa (iOS/Android) diseñada para el registro, análisis estadístico y gamificación del consumo social de bebidas. Incluye dinámicas en tiempo real (estilo BeReal), geolocalización, analíticas masivas (estilo Spotify Wrapped) y ecosistema de monetización híbrida.",
           tech: ["React Native", "TypeScript", "Firebase", "Expo", "RevenueCat", "Google AdMob", "Google Maps"],
           link: "#"
@@ -70,7 +70,7 @@ export const data = {
           id: "safesite",
           title: "SafeSite AI",
           tag: "Computer Vision",
-          image: "/safesite.png",
+          image: "./safesite.png",
           description: "Sistema de visión artificial en tiempo real que automatiza la supervisión de seguridad en entornos industriales. Utiliza YOLOv11 para verificar el uso correcto de Equipos de Protección Personal (cascos y chalecos).",
           tech: ["Python 3.11", "YOLOv11", "OpenCV", "PyTorch", "Active Learning"],
           link: "https://github.com/JMCLABAS/SafeSite-AI"
@@ -79,7 +79,7 @@ export const data = {
           id: "running",
           title: "Running League",
           tag: "Flutter App",
-          image: "/running.png",
+          image: "./running.png",
           description: "Aplicación móvil que gamifica la experiencia de correr. Permite crear ligas privadas, competir con amigos y escalar en rankings automatizados gestionados en la nube con árbitros Serverless.",
           tech: ["Flutter", "Dart", "Firebase", "SQLite", "Serverless"],
           link: "https://github.com/JMCLABAS/running_league"
@@ -88,7 +88,7 @@ export const data = {
           id: "aws",
           title: "AWS E-commerce Microservices",
           tag: "Cloud Architecture",
-          image: "/aws.png",
+          image: "./aws.png",
           description: "Arquitectura de e-commerce construida mediante microservicios Serverless en AWS. Cuenta con despliegues automatizados (CI/CD) ejecutando Terraform.",
           tech: ["AWS", "DynamoDB", "S3", "Terraform", "GitHub Actions", "Serverless"],
           link: "https://github.com/JMCLABAS/aws-ecommerce-microservices"
@@ -164,7 +164,7 @@ export const data = {
           id: "birrometro",
           title: "Birrómetro",
           tag: "Featured Mobile App",
-          image: "/birrometro.png",
+          image: "./birrometro.png",
           description: "Native cross-platform mobile app (iOS/Android) designed for tracking, statistical analysis, and gamification of social drink consumption. Includes real-time dynamics (BeReal style), geolocation, massive analytics (Spotify Wrapped style), and a hybrid monetization ecosystem.",
           tech: ["React Native", "TypeScript", "Firebase", "Expo", "RevenueCat", "Google AdMob", "Google Maps"],
           link: "#"
@@ -173,7 +173,7 @@ export const data = {
           id: "safesite",
           title: "SafeSite AI",
           tag: "Computer Vision",
-          image: "/safesite.png",
+          image: "./safesite.png",
           description: "Real-time computer vision system that automates safety monitoring in industrial environments. Uses YOLOv11 to verify correct usage of Personal Protective Equipment (helmets and vests).",
           tech: ["Python 3.11", "YOLOv11", "OpenCV", "PyTorch", "Active Learning"],
           link: "https://github.com/JMCLABAS/SafeSite-AI"
@@ -182,7 +182,7 @@ export const data = {
           id: "running",
           title: "Running League",
           tag: "Flutter App",
-          image: "/running.png",
+          image: "./running.png",
           description: "Mobile application that gamifies the running experience. Allows users to create private leagues, compete with friends, and climb automated rankings managed in the cloud with Serverless referees.",
           tech: ["Flutter", "Dart", "Firebase", "SQLite", "Serverless"],
           link: "https://github.com/JMCLABAS/running_league"
@@ -191,7 +191,7 @@ export const data = {
           id: "aws",
           title: "AWS E-commerce Microservices",
           tag: "Cloud Architecture",
-          image: "/aws.png",
+          image: "./aws.png",
           description: "E-commerce architecture built using Serverless microservices on AWS. Features automated deployments (CI/CD) running Terraform.",
           tech: ["AWS", "DynamoDB", "S3", "Terraform", "GitHub Actions", "Serverless"],
           link: "https://github.com/JMCLABAS/aws-ecommerce-microservices"

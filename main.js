@@ -6,8 +6,8 @@ let currentLang = 'es';
 function renderApp() {
   const d = data[currentLang];
   const flagIcon = currentLang === 'es' 
-    ? '<img src="/flag-en.png" alt="EN" style="width: 26px; height: 26px; object-fit: contain; border-radius: 4px;" />' 
-    : '<img src="/flag-es.png" alt="ES" style="width: 26px; height: 26px; object-fit: contain; border-radius: 50%;" />';
+    ? '<img src="./flag-en.png" alt="EN" style="width: 26px; height: 26px; object-fit: contain; border-radius: 4px;" />' 
+    : '<img src="./flag-es.png" alt="ES" style="width: 26px; height: 26px; object-fit: contain; border-radius: 50%;" />';
   const flagText = currentLang === 'es' ? 'EN' : 'ES';
 
   const appHTML = `
@@ -15,7 +15,7 @@ function renderApp() {
       <div class="container">
         <nav class="glass-panel animate-fade-up" style="animation-delay: 0.1s;">
           <a href="#" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="/logo.png" alt="JMCB Logo" style="height: 48px; width: auto; border-radius: 50%; box-shadow: 0 0 10px var(--accent-glow);">
+            <img src="./logo.png" alt="JMCB Logo" style="height: 48px; width: auto; border-radius: 50%; box-shadow: 0 0 10px var(--accent-glow);">
           </a>
           <div class="nav-links">
             <a href="#about">${d.nav.about}</a>
